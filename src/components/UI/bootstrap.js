@@ -1,6 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {Navbar, Button, Form, FormControl, Nav, } from 'react-bootstrap'
-import {city, saveCity, getData} from '../mainPage'
 
 
 function WeatherBar() {
@@ -13,9 +12,7 @@ function WeatherBar() {
            {/* <Nav.Link href="DetInform">Detailed Information</Nav.Link> */}
          </Nav>
        <Form inline>
-         <FormControl type="text" placeholder="Search" className="inputCity" 
-        //  value={city} 
-        //  onChange={saveCity}
+         <FormControl type="text" placeholder="Search" className="inputSearch, mr-2"
          />
          <Button variant="outline-info"
          >Search</Button>
