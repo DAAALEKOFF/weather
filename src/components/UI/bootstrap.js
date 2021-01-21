@@ -2,6 +2,7 @@ import React from 'react'
 import {Navbar, Button, Form, FormControl, Nav, } from 'react-bootstrap'
 
 
+
 function WeatherBar() {
   
     return (

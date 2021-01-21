@@ -16,6 +16,7 @@ class App extends Component {
           {/* <Route path="DetInform" component={DetInform} /> */}
         </Switch>
       </BrowserRouter>
+      
     )
   }
 }
